@@ -1,0 +1,82 @@
+site_name: "KII Notes"
+site_url: "https://kii-notes.github.io/"
+site_author: "KII"
+site_description: "Ghi chép khảo cứu văn bản, tri thức số và kỹ thuật"
+repo_url: "https://github.com/kii-notes/kii-notes.github.io"
+repo_name: "kii-notes/kii-notes.github.io"
+copyright: "Copyright &copy; 2026 KII — Mọi ghi chép tuân thủ tinh thần chia sẻ học thuật mở"
+
+theme:
+  name: "material"
+  language: "vi"
+  palette:
+    # Giao diện Sáng (Light Mode)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: "Chuyển sang chế độ tối"
+
+    # Giao diện Tối (Dark Mode)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: "Chuyển sang chế độ sáng"
+
+  font:
+    text: "Literata"
+    code: "JetBrains Mono"
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.tooltips
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
+  - tables
+  - attr_list
+  - def_list
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys
+
+nav:
+  - "Trang chủ": "index.md"
+  - "Khảo cứu văn bản":
+      - "Đạo Mẫu Việt Nam":
+          - "Tổng quan chuỗi bài": "khao-cuu/dao-mau-vn/index.md"
+          - "Kỳ 1 - Khảo dị bài thơ chiết tự Quỳnh Hoa": "khao-cuu/dao-mau-vn/ky-01.md"
+          - "Kỳ 2 - Khảo dị hoành phi Phủ Tây Hồ": "khao-cuu/dao-mau-vn/ky-02.md"
+  - "Kỹ thuật & Tri thức":
+      - "Ghi chép kỹ thuật": "ky-thuat/index.md"
