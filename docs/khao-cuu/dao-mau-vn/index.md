@@ -39,4 +39,6 @@ graph LR
    *Khảo cứu về thi pháp, văn bản học và giải mã nghệ thuật chiết tự Hán tự trong giai thoại xướng họa Tây Hồ giữa Phùng Khắc Khoan và Liễu Hạnh Công Chúa.*
 2. **[Kỳ 2: Khảo dị bài tán Quán Thế Âm tại Động Sơn Trang - Phủ Tây Hồ](ky-02.md)**  
    *Khôi phục bài Cử tán bát cú trong nghi thức 'Ngũ Bách Danh Quán Thế Âm' bị rơi rụng chữ, sai vần và biến dạng tự dạng trong sách.*
-3. *Kỳ 3: Đối chiếu các bản văn chầu cổ bản và hiện đại (Đang cập nhật)*
+3. **[Kỳ 3: Khảo dị đôi câu đối Động Sơn Trang tại Phủ Tây Hồ](ky-03.md)**  
+   *Từ ngộ nhận từ nguyên "Phấn đại" thành "Phần lớn" đến giải mã câu đối chữ Hán ca ngợi vẻ đẹp và uy linh của Chúa Mẫu Sơn Trang trấn giữ cõi thiêng non nước.*
+4. *Kỳ 4: Đối chiếu các bản văn chầu cổ bản và hiện đại (Đang cập nhật)*
